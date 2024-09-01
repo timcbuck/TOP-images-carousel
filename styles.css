@@ -48,3 +48,25 @@ img {
     height: 506px;
     border-radius: 1em;
 }
+
+.indicators {
+    display: flex;
+    gap: 20px;
+}
+
+.indicator {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #666; /* Background color */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.active-indicator {
+    background-color: #fff;
+}
