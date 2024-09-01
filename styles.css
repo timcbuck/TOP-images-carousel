@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
 }
 
 .carousel {
@@ -16,7 +17,7 @@ body {
     gap: 50px;
 }
 
-.left-arrow {
+#left-arrow {
     width: 0;
     height: 0;
     cursor: pointer;
@@ -25,7 +26,7 @@ body {
     border-right: 80px solid #fff;
 }
 
-.right-arrow {
+#right-arrow {
     width: 0;
     height: 0;
     cursor: pointer;
@@ -34,9 +35,16 @@ body {
     border-left: 80px solid #fff;
 }
 
-.main-image {
-    background: #fff;
-    min-width: 700px;
-    height: 400px;
-    border-radius: 0.5em;
+#left-arrow:hover {
+    border-right: 80px solid #b4b4b4;
+}
+
+#right-arrow:hover {
+    border-left: 80px solid #b4b4b4;
+}
+
+img {
+    min-width: 900px;
+    height: 506px;
+    border-radius: 1em;
 }
